@@ -4,5 +4,10 @@ channels:
 dependencies:
   - python >=3.10,<3.11
   - conda-pack
-  - pip:
-    - ipython
+  - ipython
+  # debussy compilation dependencies
+  - gcc
+  - gxx
+  - gfortran
+  - nlopt
+  - cerf
