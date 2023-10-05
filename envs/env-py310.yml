@@ -11,3 +11,5 @@ dependencies:
   - gfortran
   - nlopt
   - cerf
+  - matplotlib
+  - wxpython
